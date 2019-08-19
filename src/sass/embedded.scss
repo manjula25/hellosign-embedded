@@ -5,10 +5,11 @@
   height: 100%;
 
   &--in-modal {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 76px;
     left: 0;
     width: 100%;
+    z-index: 1!important;
   }
 }
 
